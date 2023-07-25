@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculateur d'âge</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Favicons -->
+  <link href="img/baby-boy.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calculateur d'âge</h1>
+        <form>
+          <label for="birthday">_Entrez votre date de naissance_</label><br>
+          <input type="date" id="birthday" name="birthday"><br><br>
+          <input type="submit" value="Génère mon âge actuel" title="Choisissez votre date naissance puis valider!">
+        </form>
+        <p id="result"></p>
+    </div>
+    
+    <div class="copywrite">
+      <script>document.write(new Date().getFullYear());</script>&copy; Tous droits reservés <a href="mailto:princekouame7@gmail.com">Prince Kouamé</a>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
